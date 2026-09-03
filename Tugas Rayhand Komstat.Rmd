@@ -1,0 +1,65 @@
+---
+title: "Tugas Komputasi Statistika"
+author: "Mohomad Rayhand Vaierian(3338250066)"
+date: "2026-09-03"
+output: html_document
+---
+SOAL 1
+```{r}
+v_num <- c(2.3,4.1,1.2,3.5)
+v_int <- c(2L,3L,5L)
+v_log <- c(T,F,T,T,T,F,F,T)
+v_char <- c("h","u","s","a","i","n")
+v_num
+v_int
+v_log
+v_char
+```
+SOAL 2 DAN 3
+```{r}
+m <- matrix(32:48,4,4,T)
+a <- array(32:48, dim = c(2,2,2,2))
+m
+a
+```
+SOAL 4
+```{r}
+df <- data.frame(
+  nama = c("devina","fanny","haekal","taqi"),
+  nilai = c(90,85,60,80),
+  lulus = c(T,T,F,T),
+  tidak_lulus = c(F,F,T,F)
+  )
+df
+```
+SOAL 5
+```{r}
+L <- list(
+  v_b = c(1,2,3,4),
+  v_k = matrix(1:4),
+  m = matrix(32:48,4,4,T),
+  df = data.frame(
+    nama = c("devina","fanny","haekal","taqi"),
+    nilai = c(90,85,60,80),
+    lulus = c(T,T,F,T),
+    tidak_lulus = c(F,F,T,F)
+  ),
+  list4 = list(
+    m = matrix(32:48,4,4,T),
+    a = array(32:48, dim = c(2,2,2,2)),
+    df = data.frame(
+      nama = c("devina","fanny","haekal","taqi"),
+      nilai = c(90,85,60,80),
+      lulus = c(T,T,F,T),
+      tidak_lulus = c(F,F,T,F)
+    ),
+    v_b = c(1,2,3,4)
+  )
+)
+L
+```
+
+
+
+
+
